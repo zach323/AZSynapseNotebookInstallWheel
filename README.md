@@ -12,5 +12,5 @@ how to install a Python wheel file within AZ Synapse notebooks
   )`
 5. Get the job_id of the mounted linked services via `job_id = mssparkutils.env.getJobId()`
 6. Use the `%pip` magic command to install the wheel file into your environment:
-   `%pip install /synfs/{job_id}/my_linked_svc/<job_id>/path_to_wheel.whl`
+   `%pip install /synfs/{job_id}/my_linked_svc/path_to_wheel.whl`
 7. import the module like any other python module using `import <module_name>`
